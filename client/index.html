@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Chat with AI</title>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    <div id="app">
+      <!-- <div id="color_container">
+        <div class="colors">
+          <span onclick="changeColor('#fff')"><i class='bx bx-sun'></i></span>
+          <span onclick="changeColor('#000')"><i class='bx bx-moon'></i></span>
+          <span style="--clr:#63cfb2;" onclick="changeColor('#63cfb2')"></span>
+          <span style="--clr:#569add;" onclick="changeColor('#569add')"></span>
+          <span style="--clr:#fa9ced;" onclick="changeColor('#fa9ced')"></span>
+          <span style="--clr:#f8b270;" onclick="changeColor('#f8b270')"></span>
+        </div>
+      </div> -->
+      <div id="chat_container"></div>
+      <form>
+        <textarea name="prompt" id="" cols="1" rows="1" placeholder="Ask me here..."></textarea>
+        <button type="submit"><img src="assets/send.svg"></button>
+      </form>
+
+    </div>
+    <script type="module" src="/main.js"></script>
+    <!-- <script>
+      let userChat = document.querySelector('false');
+      let aiChat = document.querySelector('ai')
+
+      function changeColor(color) {
+        document.body.style.background = color;
+        userChat.style.background = color;
+        aiChat.style.background = color;
+        userChat.style.occupacy = 0.5;
+      }
+
+    </script> -->
+  </body>
+</html>
